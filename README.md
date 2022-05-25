@@ -1,4 +1,4 @@
-2.4 Git instruments
+2.4 Git instruments HomeWork
 1. aefead2207ef7e2aa5dc81a34aedf0cad4c32545 full cahce
 Comment: Update CHANGELOG.md
 2. Commit 85024d3 have tag: v0.12.23
@@ -26,3 +26,11 @@ Comment: Update CHANGELOG.md
    8c928e835 main: Consult local directories as potential mirrors of providers
 6. 5ac311e2a - Martin Atkins mart@degeneration.co.uk
    
+Commands
+1. git show aefead
+2. git show 85024d3
+3. git log --pretty=format:'%P' b8d720
+4. git log v0.1.12.23..v0.1.12.24
+5. git log -S'func provideSource' --oneline
+6. git log -S'func synchronizedWriters' --pretty=format:'%h - %an %ae'
+
